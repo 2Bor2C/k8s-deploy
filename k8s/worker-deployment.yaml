@@ -6,7 +6,7 @@ spec:
         replicas: 1
         selector: 
                 matchLabels:
-                        component: worker\
+                        component: worker
         template:
                 metadata:
                         labels:
